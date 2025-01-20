@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{padding: 0px;
+margin: 0px;
+}
+
+/*share styles*/
+.list{
+    font-size: 20px;
+    font-weight: 700;
+    list-style: none;
+
+}
+
+.list-1:hover{
+    background-color: rgba(254, 161, 1, 0.315);
+}
+ 
+.list-2:hover{
+    background-color: rgba(1, 173, 253, 0.26);
+}
+
+.list-3:hover{
+    background-color: rgba(5, 212, 223, 0.279);
+}
+
+.list-4:hover{
+    background-color:rgba(93, 88, 239, 0.269)
+}
+
+
+/*header and nav styles*/
+
+#header{
+
+}
+
+.nav{ border: 2px solid black;
+    width: 1440px;
+height: 102px;
+    padding: 20px 0px 20px 0px;    
+}
+
+.main-nav{ border: 2px solid black;
+    width: 1160px;
+height: 62px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+
+
+
+}
+
+.nav-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+    height: 62px;
+    gap: 11px;
+    
+
+}
+
+.img-div1{
+    width: 62px;
+    height: 62px;
+
+}
+
+.nav-h3{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.nav-div2{
+   
+
+}
+
+.nav-middle-part{
+    display: flex;
+    align-items: center;
+    
+    gap: 32px;
+
+}
+
+.list-1{
+   color:rgb(254, 163, 1);
+
+}
+
+.list-2{
+color: rgb(1, 172, 253);
+
+}
+
+.list-3{
+    color:rgb(5, 212, 223);
+
+}
+
+.list-4{
+color: rgb(93, 88, 239);
+
+}
+
+.nav-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+    font-size: 20px;
+font-weight: 600;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+
+}
+
+.btn{
+    
+    width: 76px;
+    height: 30px;
+    background: rgb(254, 163, 1);
+    border: none;
+    
+
+}
+
+.btn-contact{
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+}
