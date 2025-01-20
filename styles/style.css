@@ -6,7 +6,7 @@ margin: 0px;
 
 /*share styles*/
 .list{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     list-style: none;
 
@@ -35,13 +35,13 @@ margin: 0px;
 
 }
 
-.nav{ border: 2px solid black;
+.nav{
     width: 1440px;
 height: 102px;
     padding: 20px 0px 20px 0px;    
 }
 
-.main-nav{ border: 2px solid black;
+.main-nav{
     width: 1160px;
 height: 62px;
  display: flex;
@@ -71,7 +71,7 @@ height: 62px;
 }
 
 .nav-h3{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 
 }
@@ -115,7 +115,7 @@ color: rgb(93, 88, 239);
     align-items: center;
     width: 197px;
     height: 50px;
-    font-size: 20px;
+    font-size: 1.25rem;
 font-weight: 600;
 border-radius: 12px;
 background: rgb(254, 163, 1);
@@ -139,7 +139,85 @@ background: rgb(254, 163, 1);
 
 }
 
+/*nav banner section*/
+
+.main-banner-div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    width: 1158.61px;
+height: 575px;
+margin: 0 141px;
+
+}
+
+.main-banner{
+    width: 610px;
+    height: 331px;
+    
+
+
+}
+
+.banner-h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    
+
+}
+
+.sp1{
+   color: rgb(254, 163, 1);
+}
+
+.sp2{
+color: rgb(17, 17, 17);
+
+}
+
+.sp3{
+color: rgb(1, 172, 253);
+
+}
+
+.banner-p{
+    width: 640px;
+height: 50px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:rgb(17, 17, 17);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.banner-btn2{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+
+}
+
+.btn2{
+    width: 103px;
+    height: 30px;
+    color: white;
+    font-size: 1.25rem;
+font-weight: 700;
+text-decoration: none;
+}
+
+.banner-img{
+
+
+}
+
 
 @media screen and (max-width: 576px) {
-    
+    /* .nav-h3, .nav-div2, .nav-div3{display: none;}
+.main-banner-div{flex-direction: column;
+flex-direction: column-reverse;
+width: 100%;} */
+
 }
