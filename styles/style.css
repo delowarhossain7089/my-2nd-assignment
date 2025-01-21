@@ -131,8 +131,12 @@ background: rgb(254, 163, 1);
     text-decoration: none;
 
 }
+
+.icon{
+    visibility: hidden;
+}
 .mark{
-    width:1160px;
+    width:975px;
     color: rgb(17, 17, 17);
     background-color: rgba(250, 235, 215, 0.42);
     font-size: 1.5rem;
@@ -355,11 +359,119 @@ background-color: rgb(254, 163, 1);
     text-align: center;
 }
 
+.hide{
+    display: none;
+}
 
-@media screen and (max-width: 576px) {
-    /* .nav-h3, .nav-div2, .nav-div3{display: none;}
-.main-banner-div{flex-direction: column;
-flex-direction: column-reverse;
-width: 100%;} */
+
+@media screen and (max-width: 576px){
+    .nav-h3, .nav-div2, .nav-div3{display: none;}
+     .nav{
+         width:375px;
+         height:70px;
+         display: flex;
+        border-bottom: 2px solid yellow;
+        padding: 15px;
+        align-items: center;
+        }
+    .main-nav{
+        width: 358px;
+        height: 46px;
+           }
+    .nav-div1{
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+        .icon{ visibility: visible;
+             width: 18px;
+            height: 10px;
+          margin-bottom: 50px;
+        margin-right: 50px; }
+        .mark{
+            width:400px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+.main-banner-div{
+    width: 357px;
+height: 725px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.banner-img{
+    width: auto;
+height:413px;
+margin-top: 20px;
+
+}
+
+.bnr-img{
+ width: auto;
+ height: 410px;
+}
+
+.main-banner{
+    width:357px;
+height: 252px;
+}
+.banner-h1{
+    text-align: center;
+    width: 357px;
+height: 120px;
+font-size: 2rem;
+font-weight: 700;
+}
+.banner-p{
+    width: 357px;
+height: 54px;
+    font-size: 14px;
+font-weight: 500;
+text-align: center;
+}
+.banner-btn2{
+    width: 131px;
+height: 42px;
+border-radius: 8px;
+background: rgb(17, 17, 17);
+margin-left: 113px;
+margin-bottom: 20px;
+}
+#standerd{
+    width:auto;
+height: 850px;
+}
+.stnd-header{
+    width: 261px;
+height: 33px;
+font-size: 26px;
+font-weight: 700;
+margin-left: 64px;
+margin-right: 64px;
+margin-top: 40px;
+}
+
+.stnd-main-div{ border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    width: 357px;
+height: 1400px;
+margin-left: 16px;
+}
+.stndiv{
+    width: 357px;
+height: 450px;
+margin-top: 0px;
+}
+.next-button-div{
+    display: none;
+}
 
 }
