@@ -131,6 +131,18 @@ background: rgb(254, 163, 1);
     text-decoration: none;
 
 }
+.mark{
+    width:1160px;
+    color: rgb(17, 17, 17);
+    background-color: rgba(250, 235, 215, 0.42);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 141px;
+    
+}
+.date{
+    color: red;
+}
 
 /*nav banner section*/
 
