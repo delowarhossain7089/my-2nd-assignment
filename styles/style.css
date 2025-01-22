@@ -670,10 +670,9 @@ height: 850px;
 .stnd-header{
     width: 261px;
 height: 33px;
-font-size: 26px;
+font-size: 1.5rem;
 font-weight: 700;
-margin-left: 64px;
-margin-right: 64px;
+margin: 0 auto;
 margin-top: 40px;
 }
 
