@@ -798,13 +798,13 @@ font-weight: 700;
 
 #footer{border: 2px solid  rgb(1, 172, 253);
 width: auto;
-height: 1100px;
+height: 750px;
 
 }
 
 .footer-main-div{
 width: auto;
-height: 1090px;
+height: 620px;
 display: flex;
 flex-direction: column;
 justify-content:flex-start;
